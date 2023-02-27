@@ -1,0 +1,14 @@
+/* single product page style here  */
+
+.compare-models-area .video-slider, .video-slider-area .video-slider {
+    position: relative;
+    margin-bottom: 60px;
+}
+
+
+/* privcy policy  */
+.privacy-list-item li{
+    margin-left: 30px;
+    padding: 0;
+    list-style: decimal;
+}
