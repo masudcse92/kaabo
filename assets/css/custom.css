@@ -18,6 +18,7 @@
 
 .bg-tables-top{
     background-color: #db545a !important;
+    color: #fff;
 }
 
 tbody, td, tfoot, th, thead, tr {
