@@ -1,4 +1,18 @@
 
+/* Commom  */
+
+/* review brand  */
+img.review-brand-logo {
+    height: 59px;
+    width: 115px;
+    margin-top: 25px;
+}
+img.review-brand-logo-right {
+    width: 110px;
+    height: 75px;
+    margin-top: 18px;
+}
+
 /* Hostport responsive  */
 @media (max-width: 480px){
 .feature_explore-area .hotspots-wrapper .hot-spots-image .hotspots-content p {
