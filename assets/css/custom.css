@@ -12,3 +12,15 @@
     padding: 0;
     list-style: decimal;
 }
+
+
+/* product table  */
+
+.bg-tables-top{
+    background-color: #db545a !important;
+}
+
+tbody, td, tfoot, th, thead, tr {
+    border-width: 1px;
+    text-align: center;
+}
