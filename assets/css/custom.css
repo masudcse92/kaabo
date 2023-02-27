@@ -1,3 +1,13 @@
+
+/* Hostport responsive  */
+@media (max-width: 480px){
+.feature_explore-area .hotspots-wrapper .hot-spots-image .hotspots-content p {
+    padding: 1px 10px;
+    font-size: 6px;
+}
+}
+
+
 /* single product page style here  */
 
 .compare-models-area .video-slider, .video-slider-area .video-slider {
@@ -24,4 +34,31 @@
 tbody, td, tfoot, th, thead, tr {
     border-width: 1px;
     text-align: center;
+}
+
+span.box-black-table {
+    width: 0;
+    background: black;
+    display: inline-block;
+    padding: 12px;
+}
+span.box-red-table {
+    width: 0;
+    background: red;
+    display: inline-block;
+    padding: 12px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+span.box-yellow-table {
+    width: 0;
+    background: yellow;
+    display: inline-block;
+    padding: 12px;
+}
+
+@media (max-width: 480px) {
+    tbody, td, tfoot, th, thead, tr {
+    font-size: 10px;
+}
 }

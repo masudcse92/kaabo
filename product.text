@@ -1,0 +1,162 @@
+
+<!-- compare models area start -->
+<section class="compare-models-area section-padding" id="compare">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <div class="section-title">
+                    <h2>Compare Models</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Models</th>
+                            <th scope="col">
+                                <img src="assets/images/img/kaabo-mantis-king-demo.png" alt="">
+                                <span>Wolf King GT Pro</span>
+                                <a href="#" class="view-btn">View More</a>
+                            </th>
+                            <th scope="col">
+                                <img src="assets/images/img/kaabo-mantis-king-demo.png" alt="">
+                                <span>Wolf King GT Pro</span>
+                                <a href="#" class="view-btn">View More</a>
+                            </th>
+                            <th scope="col">
+                                <img src="assets/images/img/kaabo-mantis-king-demo.png" alt="">
+                                <span>Wolf King GT Pro</span>
+                                <a href="#" class="view-btn">View More</a>
+                            </th>
+                            <th scope="col">
+                                <img src="assets/images/img/kaabo-mantis-king-demo.png" alt="">
+                                <span>Wolf King GT Pro</span>
+                                <a href="#" class="view-btn">View More</a>
+                            </th>
+                            <th scope="col">
+                                <img src="assets/images/img/kaabo-mantis-king-demo.png" alt="">
+                                <span>Wolf King GT Pro</span>
+                                <a href="#" class="view-btn">View More</a>
+                            </th>
+                            <th scope="col">
+                                <img src="assets/images/img/kaabo-mantis-king-demo.png" alt="">
+                                <span>Wolf King GT Pro</span>
+                                <a href="#" class="view-btn">View More</a>
+                            </th>
+                            <th scope="col">
+                                <img src="assets/images/img/kaabo-mantis-king-demo.png" alt="">
+                                <span>Wolf King GT Pro</span>
+                                <a href="#" class="view-btn">View More</a>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Configuration</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>Color</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>Battery Type</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>Battery Model</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>Motor Power</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>Configuration</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>Color</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>Battery Type</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>Battery Model</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>Motor Power</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- compare models area end -->
