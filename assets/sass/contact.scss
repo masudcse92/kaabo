@@ -1,0 +1,27 @@
+// sass function varibale and mixin list
+@import 'variable/_variable.scss';
+
+@import 'function/_function.scss';
+
+@import 'mixin/_mixin.scss';
+
+/*=================================================
+          body reset file
+===============================================*/
+@import 'reset/_predefine.scss';  
+
+
+
+
+/*=================================================
+          Contact
+===============================================*/
+@import './element/contact';
+
+
+
+
+/*=================================================
+          inheritance
+===============================================*/
+@import 'reset/_inheritance.scss';

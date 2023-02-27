@@ -1,0 +1,81 @@
+/**
+ * /*----------------------------------------------------
+ * 
+ * This file contains the styling for the actual template, this
+ * is the file you need to edit to change the look of the
+ * template.
+ * 
+ * 
+ * 
+ * Table of Content:
+ * 01/ Variables
+ * 02/ predefine
+ * 03/ header
+ * 04/ banner
+ * 05/ documentation
+ * 06/ testimonial
+ * 07/ blog
+ * 12/ footer 
+ * 
+ * 
+ * =====================================================================
+ *
+ * @format
+ * @File: Default Styles
+ * @Author: Kaabo
+ * @URL: Author E-mail:
+ * @Default Styles
+ */
+
+/**------------------------------- Table Of Content  ------------------------------------
+
+
+=====================================================**************************/
+
+// sass function varibale and mixin list
+@import 'variable/_variable.scss';
+
+@import 'function/_function.scss';
+
+@import 'mixin/_mixin.scss';
+
+/*=================================================
+          body reset file
+===============================================*/
+@import 'reset/_predefine.scss';
+
+/*=================================================
+          element
+===============================================*/
+
+
+/*=================================================
+          fontface
+===============================================*/
+@import './element/fontface';
+
+/*=================================================
+          Header 
+===============================================*/
+@import './element/header';
+
+/*=================================================
+          Footer
+===============================================*/
+@import './element/footer';
+
+
+/*=================================================
+          Button
+===============================================*/
+@import './element/button';
+
+/*=================================================
+          inheritance
+===============================================*/
+@import 'reset/_inheritance.scss';
+
+/*=================================================
+          Home
+===============================================*/
+@import './element/home';

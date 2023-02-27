@@ -1,0 +1,46 @@
+// default color set
+$color-white: #FFFFFF;
+$color-black: #000000;
+$color-gray: #f9f9f9;
+$color-orange: #ffa801;
+$color-gold: #fed700;
+$color-yellow: #ffd200;
+$color-semi-black: #333333;
+
+// social color
+$color-facebook: #4969a8;
+$color-twitter: #2aa3ef;
+$color-dribbble: #ea4c89;
+$color-pinterest: #bd081c;
+$color-instagram: #e8715c;
+$color-google-plus: #dc4a38;
+$color-linkedin: #1178b3;
+
+$color-green: #1cf196;
+
+
+// primary and secondary color list
+$primary-color: #B4202D; // Navy Blue
+
+
+
+
+// body var
+$bodyFont: 'Antique Olive Std', sans-serif;
+$bodyFontWeight: 400;
+$bColor: #656565;
+$bfSize: 13px;
+$blineHeight: 25px;
+
+@function rem($pixels, $context: $bfSize) {
+	@if (unitless($pixels)) {
+		$pixels: $pixels * 1px;
+	}
+
+	@if (unitless($context)) {
+		$context: $context * 1px;
+	}
+
+	// @return $pixels / $context * 1rem;
+	@return $pixels;
+}

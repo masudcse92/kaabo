@@ -1,0 +1,179 @@
+@import 'form';
+
+
+.kaabo-header-area { 
+    .header-top-wrapper{
+        background-color: #f3f3f3;
+        .header-top{
+            padding: 7px 0;
+            .search{
+                a{
+                    color: #888888; 
+                }
+            } 
+            ul {
+                li { 
+                    color: #888888;  
+                }
+                &.cntry-flag{
+                    li{
+                        color: #000000;
+                    }
+                }
+                &.login-icon:before {
+                    background-color: #888888;
+                }
+            }
+        }
+    }
+    .header_area {
+        margin-top: 0; 
+        .main-menu-wrapper {
+            .nav-tools { 
+                padding-left: 0;
+            }
+            .header-right-button {
+                padding-right: 0;
+            }
+        }
+    }
+}
+/* bannar area start*/
+.hero-section{
+    position: relative;
+    .bannar-wrapper{
+        //background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover; 
+        padding-top: 400px;
+        padding-bottom: 80px;
+        &.bg-overlay{
+            position: relative; 
+            &:after {
+                position: absolute;
+                content: "";
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                z-index: 0;
+                background-color: rgba(0, 0, 0, 0.5);
+            }
+        } 
+        .banner-content-inner{
+            position: relative; 
+            z-index: 1;
+            .bannar-heading{
+                font-size: 30px;
+                line-height: 40px;
+                font-weight: 700;
+                color: #fff;
+                margin: 0;
+                @media(max-width: 576px){
+                    font-size: 20px;
+                    line-height: 30px;
+                }
+            }
+            .banner-subtitle{
+                font-size: 18px;
+                line-height: 18px;
+                font-weight: 500;
+                color: #fff;
+                margin: 0;
+                margin-bottom: 8px;
+                @media(max-width: 576px){
+                    font-size: 14px; 
+                }
+            }
+        } 
+        @media(max-width: 767px){ 
+            padding-top: 150px;
+            padding-bottom: 150px;
+            .bannar-content-wrap{
+                text-align: center;
+            }  
+        }
+    }
+}
+
+.country-region-area{
+    .section-title{
+        h2{
+            padding-bottom: 12px;
+            position: relative;
+            @media(max-width: 767px){
+                &::after{
+                    content: "";
+                    position: absolute;
+                    bottom: 0;
+                    left: 50%;
+                    width: 40px;
+                    height: 2px;
+                    transform: translateX(-50%);
+                    background-color: $primary-color;
+                }
+            }
+        }
+    }
+    .country_oregin-single-box{
+        background-color: #ffffff;
+        border-left: 5px solid $primary-color;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+        .contry-info{
+            padding-left: 30px;
+            h3{
+                margin-bottom: 12px;
+                font-size: 22px;
+                line-height: 30px;
+                position: relative; 
+            }
+            span{
+                display: block;
+                color: #656565;
+                font-size: 13px; 
+                &:not(:last-child){
+                    margin-bottom: 5px;
+                }
+            }
+            .btn-box{
+                margin-top: 25px;
+                .shop-now-btn{
+                    background-color: #ffffff;
+                    color: $primary-color; 
+                    border: 1px solid $primary-color;
+                    box-shadow: none;
+                    &:hover{
+                        background-color: $primary-color;
+                        color: #ffffff;
+                        border-color:#ffffff;
+                    }
+                }
+            }
+        }
+        img{
+            width: 100%; 
+        }
+        &:not(:last-child){
+            margin-bottom: 40px;
+        }
+        @media(max-width: 767px){
+            padding: 20px;
+            .contry-info{
+                padding-left: 0;
+                margin-top: 20px;
+            }
+        }
+    }
+    .info-area-bottom{
+        p{
+            color: #000000;
+            margin: 0;
+        }
+        a{
+            display: inline-block;
+            font-size: 14px;
+            color: $primary-color;
+        }
+    }
+}
