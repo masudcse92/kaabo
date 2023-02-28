@@ -76,54 +76,32 @@
         <h2>Responsive Form</h2>
         <p>Resize the browser window to see the effect. When the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other.</p>
         
-        <div class="container" style="width: 50%; mx-auto">
-          <form method="POST">
-          <div class="row">
-            <div class="col-25">
-              <label for="fname">First Name</label>
-            </div>
-            <div class="col-75">
-              <input type="text" id="fname" name="Name" placeholder="Your name..">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-25">
-              <label for="lname">Email</label>
-            </div>
-            <div class="col-75">
-              <input type="text" id="email" name="Email" placeholder="Your last name..">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-25">
-              <label for="subject">Subject</label>
-            </div>
-            <div class="col-75">
-              <textarea id="subject" name="Subject" placeholder="Write something.." style="height:200px"></textarea>
-            </div>
-          </div>
-          <br>
-          <div class="row">
-            <input type="submit" value="Submit" name="submit">
-          </div>
-          </form>
-        </div>
+       <div>
+        <form method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="fname" name="Name" placeholder="Your name..">
+
+            <label for="email">Email</label>
+            <input type="text" id="lname" name="Email" placeholder="Your email">
+
+            <label for="mobile">Mobile</label>
+            <input type="text" id="lnamke" name="Mobile" placeholder="Your Moible">
+
+            <input type="submit" name="submit" value="submit">
+        </form>
+       </div>
 
         <script>
-            3cript>
-            const scriptURL =
-            httpo://3cript.google.com/macroa/3/AKÉycbxkgWoCMyvIKoT9 aGt PCndZdHt Hrq@ i972t 9CKAVjo6
-            8C1TOLUexe
-            const form = document.form» [ 'google sheet ']
-            form.add Event Listener ("'submit ',e =>
-            e.prevent De fault ()
-            fetch (cript URL, method: 'POST', body: new FormData (form) )
-            .then (response => alert ("Thanks for Contacting us..! We Will Cont act You
-            Soon. "))
-            .catch(error -> console.error (' Bzror! ', error . me asege) )
-            /script>
-
-        </script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwUQohYwpFIngYYpAgcSrdK1gb1IQ2zvl981B-YxeDUCDDCGeMzmcZixhMBJ6SHZzRW/exec';
+            const form = document.forms['google-sheet'];
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
         
         </body>
         </html>
