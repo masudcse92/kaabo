@@ -106,7 +106,7 @@ span.box-dark-table {
 /* Top Header  */
 
 ul.cntry-flag a {
-    display: inline-flex;
+    display: contents !important;
 }
 
 /* Home Page Tape section  */
