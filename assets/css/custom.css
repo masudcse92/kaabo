@@ -34,7 +34,6 @@ img.review-brand-logo-right {
 }
 }
 
-
 /* single product page style here  */
 
 .compare-models-area .video-slider, .video-slider-area .video-slider {
@@ -42,14 +41,12 @@ img.review-brand-logo-right {
     margin-bottom: 40px;
 }
 
-
 /* privcy policy  */
 .privacy-list-item li{
     margin-left: 30px;
     padding: 0;
     list-style: decimal;
 }
-
 
 /* product table  */
 
@@ -89,6 +86,12 @@ span.box-blue-table {
     display: inline-block;
     padding: 12px;
 }
+span.box-gold-table {
+    width: 0;
+    background: rgb(231, 208, 2);
+    display: inline-block;
+    padding: 12px;
+}
 span.box-dark-table {
     width: 0;
     background: rgb(176, 176, 180);
@@ -108,7 +111,9 @@ span.box-dark-table {
 ul.cntry-flag a {
     display: contents !important;
 }
-
+ul.cntry-flag a {
+    display: contents;
+}
 /* Home Page Tape section  */
 
 .btn-box-tap{
@@ -131,11 +136,11 @@ a.taps-view-more-btn {
     margin-top: 10px !important;
 }
 
-@media (max-width: 480px){
+@media (max-width: 767px){
 .btn-box-tap {
     position: absolute;
     left: 12px;
-    margin-top: -128px;
+    margin-top: -168px;
 }
 a.taps-view-more-btn {
     font-size: 10px;
@@ -144,5 +149,30 @@ a.taps-view-more-btn {
 .skywalker-top {
     margin-top: -107px !important;
 }
+}
+
+/* Home page vedio */
+
+/* .py-vedio {
+    padding: 30px 0px 0px 0px;
+} */
+
+.together-area .swiper-pointer-events {
+    padding: 113px;
+}
+.together-area .swiper-button-prev {
+    left: 21%;
+    background-color: #00000094;
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+}
+
+.together-area .swiper-button-next {
+    right: 21%;
+    background-color: #00000094;
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
 }
 
