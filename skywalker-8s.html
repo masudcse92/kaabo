@@ -1596,60 +1596,62 @@
     <!-- compare models area end -->
 
     <!-- kaabo contact form start -->
-    <section class="kaabo-contact-form-area section-padding bg-light">
+    <section class="kaabo-contact-form-area section-padding ">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 mx-auto">
                     <div class="section-title">
                         <h2>Let's get in touch</h2>
-                        <p class="text-danger">WE'D LOVE TO HEAR FROM YOU</p>
+                        <p class="color-text">WE'D LOVE TO HEAR FROM YOU</p>
+                        <p>Need help with Kaabo electric scooters? Fill out the form & we'll get back to you ASAP.</p>
                     </div>
                 </div>
             </div>
-            <form action="#" class="contact-form">
+            <span id="success" class="text-danger"></span>
+            <form name="submit-to-google-sheet" class="contact-form">
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
                         <div class="form-group">
-                            <input type="text" class="form-control input" placeholder="Company Name">
+                            <input type="text" name="Name" class="form-control input" placeholder="Name">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
                         <div class="form-group">
-                            <input type="text" class="form-control input" placeholder="Email Address">
+                            <input type="email" name="Email" class="form-control input" placeholder="Email Address" required="required">
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
                         <div class="form-group">
-                            <input type="text" class="form-control input" placeholder="Company Website">
+                            <input type="text" name="Number" class="form-control input" placeholder="Phone Number">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
                         <div class="form-group">
-                            <input type="text" class="form-control input" placeholder="Country">
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="form-group">
-                            <textarea name="massage" rows="5" class="form-control textarea"
-                                placeholder="Message"></textarea>
+                            <input  type="text" name="Country" class="form-control input" placeholder="Country">
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
                         <div class="form-group">
-                            <input type="button" value="Submit" class="btn btn-danger submit-btn">
+                            <textarea type="text" name="Massage" rows="5" class="form-control textarea" placeholder="Message" required="required"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-danger submit-btn">Submit</button>
+                            <!-- class="btn btn-danger submit-btn" -->
                         </div>
                     </div>
                 </div>
             </form>
         </div>
     </section>
-
+  <!-- kaabo contact form start -->
 
 
     <!-- counterup section start -->
@@ -1867,6 +1869,64 @@
     </footer>
     <!-- footer end -->
 
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-header">
+                    <img src="assets/images/header/Asset-39.png" alt="">
+                    <h2 class="modal-title" id="exampleModalToggleLabel">Let's Get in Touch</h2>
+                </div>
+                <div class="modal-body">
+                
+                <span id="success" class="text-danger"></span>
+                <form name="submit-to-google-sheets" class="contact-form">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="form-group">
+                                <input type="text" name="Name" class="form-control input" placeholder="Name">
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="form-group">
+                                <input type="email" name="Email" class="form-control input" placeholder="Email Address" required="required">
+                            </div>
+                        </div>
+                    <!-- </div>
+                    <div class="row"> -->
+                        <div class="col-xs-12">
+                            <div class="form-group">
+                                <input type="text" name="Number" class="form-control input" placeholder="Phone Number">
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="form-group">
+                                <input  type="text" name="Country" class="form-control input" placeholder="Country">
+                            </div>
+                        </div>
+                    <!-- </div>
+                    <div class="row"> -->
+                        <div class="col-xs-12">
+                            <div class="form-group">
+                                <textarea type="text" name="Massage" rows="5" class="form-control textarea" placeholder="Message" required="required"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-danger submit-btn">Submit</button>
+                                <!-- class="btn btn-danger submit-btn" -->
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="kaabo-sale-question" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Sales question?</a>
+
 
     <!-- dependency script -->
     <script src="assets/js/jquery-3.6.0.min.js"></script>
@@ -1879,6 +1939,7 @@
     <script src="assets/js/nx-nav-menu.js"></script>
     <script src="assets/js/navigation.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/contact.js"></script>
 
 
 </body>
