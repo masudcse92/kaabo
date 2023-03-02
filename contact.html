@@ -39,7 +39,7 @@
                     <div class="col-md-12">
                         <div class="header-top">
                             <ul class="cntry-flag">
-                                <a href="agent-country.html">
+                                <a href="global-partners.html">
                                     <li>
                                         <img src="assets/images/usa.png" alt="">
                                     </li>
@@ -890,7 +890,7 @@
                                         class="fa-solid fa-angle-down"></i></a>
                                 <ul class="nav-dropdown has-submenu-item">
                                     <li class="has-submenu">
-                                        <a class="dropdown-item" href="agent-country.html">
+                                        <a class="dropdown-item" href="global-partners.html">
                                             Global Partners
                                         </a>
                                     </li>
@@ -915,7 +915,7 @@
                     </div>
                     <ul class="header-right-button">
                         <li class="btn-wrapper">
-                            <a href="agent-country.html" class="shop-now_btn"> <i class="fa-solid fa-cart-shopping"></i>
+                            <a href="global-partners.html" class="shop-now_btn"> <i class="fa-solid fa-cart-shopping"></i>
                                 shop</a>
                         </li>
                     </ul>
@@ -1034,7 +1034,7 @@
 
                                             </li>
                                             <li class="mobile-menu-item">
-                                                <a href="agent-country.html" class="mobile-nav-link">Agent
+                                                <a href="global-partners.html" class="mobile-nav-link">Agent
                                                     Country</a>
 
                                             </li>
@@ -1090,64 +1090,8 @@
         </div>
     </section>
 
-        <!-- kaabo contact form start -->
-        <section class="kaabo-contact-form-area section-padding ">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 mx-auto">
-                        <div class="section-title">
-                            <h2>Let's get in touch</h2>
-                            <p class="color-text">WE'D LOVE TO HEAR FROM YOU</p>
-                            <p>Need help with Kaabo electric scooters? Fill out the form & we'll get back to you ASAP.</p>
-                        </div>
-                    </div>
-                </div>
-                <form onsubmit="sendEmail(); reset(); return false;" class="contact-form">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-12">
-                            <div class="form-group">
-                                <input type="text" id="name" class="form-control input" placeholder="Company Name">
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-12">
-                            <div class="form-group">
-                                <input  type="email" id="email" class="form-control input" placeholder="Email Address">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-6 col-md-12">
-                            <div class="form-group">
-                                <input type="text" id="text"  class="form-control input" placeholder="Company Website">
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-12">
-                            <div class="form-group">
-                                <input  type="text" id="country" class="form-control input" placeholder="Country">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="form-group">
-                                <textarea name="massage" id="messages"  rows="5" class="form-control textarea">Message</textarea>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="form-group">
-                                <input type="submit" value="Submit" class="btn btn-danger submit-btn">
-                            </div>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </section>
-        <!-- kaabo contact form start -->
-
-    <!-- kaabo contact form start -->
-    <!-- <section class="kaabo-contact-form-area section-padding ">
+      <!-- kaabo contact form start -->
+    <section class="kaabo-contact-form-area section-padding ">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 mx-auto">
@@ -1158,48 +1102,50 @@
                     </div>
                 </div>
             </div>
-            <form action="#" class="contact-form">
+            <span id="success" class="text-danger"></span>
+            <form name="submit-to-google-sheet" class="contact-form">
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
                         <div class="form-group">
-                            <input type="text" class="form-control input" placeholder="Company Name">
+                            <input type="text" name="Name" class="form-control input" placeholder="Name">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
                         <div class="form-group">
-                            <input type="text" class="form-control input" placeholder="Email Address">
+                            <input type="email" name="Email" class="form-control input" placeholder="Email Address" required="required">
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
                         <div class="form-group">
-                            <input type="text" class="form-control input" placeholder="Company Website">
+                            <input type="text" name="Number" class="form-control input" placeholder="Phone Number">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
                         <div class="form-group">
-                            <input type="text" class="form-control input" placeholder="Country">
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="form-group">
-                            <textarea name="massage" rows="5" class="form-control textarea">Message</textarea>
+                            <input  type="text" name="Country" class="form-control input" placeholder="Country">
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
                         <div class="form-group">
-                            <input type="button" value="Submit" class="btn btn-danger submit-btn">
+                            <textarea type="text" name="Massage" rows="5" class="form-control textarea" placeholder="Message" required="required"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-danger submit-btn">Submit</button>
+                            <!-- class="btn btn-danger submit-btn" -->
                         </div>
                     </div>
                 </div>
             </form>
         </div>
-    </section> -->
+    </section>
     <!-- kaabo contact form start -->
 
     <section class="kaabo-contact-address-social section-padding">
@@ -1274,7 +1220,6 @@
         </div>
     </section>
 
-
     <!-- counterup section start -->
     <section class="counter-area bg-light section-padding">
         <div class="container">
@@ -1344,7 +1289,6 @@
         <div class="footer-main-area">
             <div class="container">
                 <div class="row">
-
                     <div class="col-xs-12 col-md-5 col-sm-12">
                         <div class="row">
                             <div class="col-xs-12 col-md-6 col-sm-12">
@@ -1391,8 +1335,8 @@
                                             <li><a href="suppor.html">Manuals</a></li>
                                             <li><a href="faq.html">FAQ</a></li>
                                             <li><a href="contact.html">Contact</a></li>
-                                            <li><a href="Terms-and-Conditions.html">Terms and conditions</a></li>
-                                            <li><a href="Privacy-Policy.html">Privacy Policy</a></li>
+                                            <li><a href="terms-and-conditions.html">Terms and conditions</a></li>
+                                            <li><a href="privacy-policy.html">Privacy Policy</a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -1497,50 +1441,55 @@
                     <h2 class="modal-title" id="exampleModalToggleLabel">Let's Get in Touch</h2>
                 </div>
                 <div class="modal-body">
+                 
+                <span id="success" class="text-danger"></span>
+                <form name="submit-to-google-sheets" class="contact-form">
                     <div class="row">
-                        <form class="kaabo-form">
-                            <div class="col-xs-12">
-                                <div class="form-group">
-                                    <input type="text" id="text" class="form-control" placeholder="Your Name"
-                                        required="required">
-                                </div>
+                        <div class="col-xs-12">
+                            <div class="form-group">
+                                <input type="text" name="Name" class="form-control input" placeholder="Name">
                             </div>
-                            <div class="col-xs-12">
-                                <div class="form-group">
-                                    <input type="email" id="email" class="form-control" placeholder="Your Email"
-                                        required="required">
-                                </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="form-group">
+                                <input type="email" name="Email" class="form-control input" placeholder="Email Address" required="required">
                             </div>
-                            <div class="col-xs-12">
-                                <div class="form-group">
-                                    <input type="text" id="country" class="form-control" placeholder="Your Country"
-                                        required="required">
-                                </div>
+                        </div>
+                      <!-- </div>
+                      <div class="row"> -->
+                        <div class="col-xs-12">
+                            <div class="form-group">
+                                <input type="text" name="Number" class="form-control input" placeholder="Phone Number">
                             </div>
-                            <div class="col-xs-12">
-                                <div class="form-group">
-                                    <textarea id="message" class="textarea form-control"
-                                        placeholder="Your Message"></textarea>
-                                </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="form-group">
+                                <input  type="text" name="Country" class="form-control input" placeholder="Country">
                             </div>
-                            <div class="col-xs-12">
-                                <div class="form-group correct-details">
-                                    <input type="checkbox" id="form-field-Verify">
-                                    <label for="form-field-Verify">I have entered the correct details</label>
-                                </div>
+                        </div>
+                      <!-- </div>
+                      <div class="row"> -->
+                        <div class="col-xs-12">
+                            <div class="form-group">
+                                <textarea type="text" name="Massage" rows="5" class="form-control textarea" placeholder="Message" required="required"></textarea>
                             </div>
-                            <div class="col-xs-12">
-                                <div class="form-group">
-                                    <input type="submit" value="Submit" class="btn-submit">
-                                </div>
-                            </div>
-                        </form>
+                        </div>
                     </div>
+                      <div class="row">
+                        <div class="col-xs-12">
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-danger submit-btn">Submit</button>
+                                <!-- class="btn btn-danger submit-btn" -->
+                            </div>
+                        </div>
+                    </div>
+                </form>
                 </div>
             </div>
         </div>
     </div>
     <a class="kaabo-sale-question" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Sales question?</a>
+
 
 
 
@@ -1552,19 +1501,7 @@
     <script src="assets/vendors/counter-up/jquery.waypoints.min.js"></script>
     <script src="assets/js/navigation.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script>
-        function sendEmail(){
-            Email.send({
-                SecureToken: "f12819b5-e59e-4a17-98a5-05f9369d767e",
-                To : 'masud.nextwinz@gmail.com',
-                From : document.getElementById("email").value,
-                Subject : "This is the subject",
-                Body : "And this is the body"
-            }).then(
-            message => alert(message)
-            );
-        }
-    </script>
+    <script src="assets/js/contact.js"></script>
 
 
 </body>
