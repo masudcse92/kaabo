@@ -1,6 +1,13 @@
 
 /* Commom  */
+/* top hader  */
 
+ul.login-icon .my-account {
+    display: none;
+}
+.social-media-info .login-account {
+    display: none !important;
+}
 /* review brand  */
 img.review-brand-logo {
     height: 59px;
