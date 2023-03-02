@@ -13,6 +13,15 @@ img.review-brand-logo-right {
     margin-top: 18px;
 }
 
+/* Top header  */
+
+a.my-account {
+    display: none;
+}
+a.login-account {
+    display: none !important;
+}
+
 
 @media (max-width: 767px){
     img.review-brand-logo {
