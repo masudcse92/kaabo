@@ -26,15 +26,16 @@
 function popupToggle(){
   const scriptURL = 'https://script.google.com/macros/s/AKfycbxJnCCeSltnALG6CNQVP-3MiMi74vjXoKf1gzRc_-iwIeujCkXOPnWvCnzFPoq2LHuS9w/exec';
   const form = document.forms['submit-to-google-sheets'];
-  const successMessage = document.getElementById('success');
+  const successsMessage = document.getElementById('successsMessage');
+  successsMessage;
 
   form.addEventListener('submit', e => {
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
       .then(response => {
-        success.innerHTML = "Data successfully message";
+        successsMessage.innerHTML = "Data successfully message";
         setTimeout(function(){
-            success.innerHTML = " ";
+          successsMessage.innerHTML = " ";
         }, 5000)
         form.reset();
       })
