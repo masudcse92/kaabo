@@ -12,16 +12,12 @@ img.review-brand-logo-right {
     height: 75px;
     margin-top: 18px;
 }
-
-/* Top header  */
-
-a.my-account {
-    display: none;
+.hero-section .bannar-wrapper {
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    /* padding: 200px 0; */
 }
-a.login-account {
-    display: none !important;
-}
-
 
 @media (max-width: 767px){
     img.review-brand-logo {
@@ -115,12 +111,6 @@ span.box-gold-table {
 span.box-dark-table {
     width: 0;
     background: rgb(176, 176, 180);
-    display: inline-block;
-    padding: 12px;
-}
-span.box-light-table{
-    width: 0;
-    background: rgb(231, 231, 232);
     display: inline-block;
     padding: 12px;
 }
