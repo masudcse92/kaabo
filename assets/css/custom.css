@@ -109,6 +109,12 @@ span.box-dark-table {
     display: inline-block;
     padding: 12px;
 }
+span.box-light-table{
+    width: 0;
+    background: rgb(231, 231, 232);
+    display: inline-block;
+    padding: 12px;
+}
 
 @media (max-width: 480px) {
     tbody, td, tfoot, th, thead, tr {
